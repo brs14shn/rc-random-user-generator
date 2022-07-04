@@ -1,7 +1,18 @@
 
 .bgColor{
-    background-color: #4A6C7F;
+    background: linear-gradient(90deg, rgb(93, 151, 171),pink);
+
 }
 .boxShadow{
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.bRadius{
+    border-radius: 10px;
+}
+.min-width{
+    min-width:300px ;
+}
+.min-container-width{
+    min-width: 400px;
 }

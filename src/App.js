@@ -30,22 +30,19 @@ const App = () => {
 
   return (
     <>
-    <div className="container text-center bgColor border border-danger w-50 ">
-      <h1>UserList</h1>
-      <div className="card-container boxShadow  ">
+    <div className="container vh-100 text-center bg-info  bgColor min-container-width">
+      
+      <div className="container d-flex flex-column w-50 min-width bg-warning boxShadow  mt-4 bRadius vh-40">
     
      {user && <Card user={user}/>}
-
-       
       </div>
-    </div>
-    <div className="text-center">
+      <div className="text-center mt-5">
     <button className="btn btn-danger mt-4 text-center " onClick={()=>getUserRandom()}>
         Random User
     </button>
     </div>
+    </div>
     
-
     </>
     
   )

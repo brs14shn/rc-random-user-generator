@@ -1,0 +1,10 @@
+.text-design{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: white;
+
+}
+
+img{
+    object-fit: contain;
+}
