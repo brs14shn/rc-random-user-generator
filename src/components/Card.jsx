@@ -7,7 +7,7 @@ const Card = ({ user }) => {
   return (
     <div>
       <h1>Card oluştur</h1>
-      <img className="rounded-circle w-50" src={medium} alt="" />;
+      <img className="rounded-circle w-50" src={medium} alt="" />
     </div>
   );
 };

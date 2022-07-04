@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from  "./components/Card";
+import "./App.css";
 
 
 
@@ -28,18 +29,25 @@ const App = () => {
    console.log(user);
 
   return (
-    <div className="container text-center">
+    <>
+    <div className="container text-center bgColor border border-danger w-50">
       <h1>UserList</h1>
-      <div className="card-container bgColor">
+      <div className="card-container ">
     
-      {user && <Card user={user}/>}
+      <Card user={user}/>
        
       </div>
 
-      <button className="btn btn-danger mt-4" onClick={()=>getUserRandom()}>
-        Random User
-      </button>
+      
     </div>
+    <div className="text-center">
+    <button className="btn btn-danger mt-4 text-center " onClick={()=>getUserRandom()}>
+        Random User
+    </button>
+    </div>
+    
+
+    </>
     
   )
 }
