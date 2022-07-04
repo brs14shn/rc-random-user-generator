@@ -37,8 +37,6 @@ const App = () => {
       <Card user={user}/>
        
       </div>
-
-      
     </div>
     <div className="text-center">
     <button className="btn btn-danger mt-4 text-center " onClick={()=>getUserRandom()}>
