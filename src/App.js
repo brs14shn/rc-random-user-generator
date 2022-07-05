@@ -16,6 +16,7 @@ const App = () => {
     setUser(data.results[0])
     // setLoading(false)
   }
+  console.log(data)
   // getUserRandom()
 
   useEffect(()=>{
@@ -32,7 +33,7 @@ const App = () => {
     <>
     <div className="container vh-100 text-center bg-info  bgColor min-container-width">
       
-      <div className="container d-flex flex-column w-50 min-width bg-warning boxShadow  mt-4 bRadius vh-40">
+      <div className="container d-flex flex-column w-50 min-width bg-warning boxShadow mt-4 bRadius vh-40">
     
      {user && <Card user={user}/>}
       </div>

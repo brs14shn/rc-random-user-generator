@@ -34,7 +34,6 @@ const Card = ({ user }) => {
       </div>
       <p className="text-design">{`${title}.${first} ${last}`}</p>
       <p className="text-design">{`Age: ${age}`}</p>
-
       <p>{phones && <span className="text-design">{phone}</span>}</p>
       <p>{emails && <span className="text-design">{email}</span>}</p>
       <p>
